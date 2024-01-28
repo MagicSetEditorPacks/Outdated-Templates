@@ -4,7 +4,7 @@ short name: M15 Tokens
 full name: After M15
 icon: card-sample.png
 installer group: magic/m15 style/tokens
-position hint: 003
+position hint: 703
 
 version: 2015-12-20
 depends on:
@@ -183,11 +183,11 @@ card style:
 		default: {default_image(card.card_color)}
 	################H############ Card type
 	type:
-		left: 35
+		left: 32
 		top:
 			{if      text_shape() == "" then 429
 			 else 354}
-		width: { 308 - max(22,card_style.rarity.content_width) }
+		width: { 311 - max(22,card_style.rarity.content_width) }
 		height: 20
 		alignment: top shrink-overflow
 		z index: 1
